@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Adrian Josue Calderón Segura - Desarrollador Web" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link type="image/x-icon" href="public/image/codeico.png" rel="icon" />
+	<link href="https://fonts.googleapis.com/css?family=K2D:300|Rambla:700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" />
+	<link rel="stylesheet" href="public/css/style.css" />
+	<title>adriancs19 - Desarrollador Web</title>
+</head>
+<body>
+	<div class="loader">
+		<div class="loader__container">
+			<div class="loader__hexagon"></div>
+			<p class="loader__message">Cargando portafolio...</p>
+		</div>
+	</div>
+
+	<div class="blanketBody"></div>
+
+	<div class="control-actions">
+		<span class="control-actions__menu"><i class="fas fa-hamburger"></i></span>
+	</div>
+
+	<div class="container-master">
+		<!-- Éste es el menú para dispositivos móviles y tablet's -->
+		<div class="myself__container__menu">
+			<div class="myself__data">
+				<div class="myself__data__container-avatar">
+					<div class="myself__data__avatar"></div>
+				</div>
+				<div class="myself__data__info">
+					<h4 class="myself__data__info__fullname">Adrian Calderón Segura</h4>
+					<p class="myself__data__info__role">Desarrollador Web</p>
+				</div>
+			</div>
+
+			<ul class="myself__menu">
+				<a href="#home" class="myself__menu__link myself__menu__link--active">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-home fa-stack-1x fa-inverse"></i>
+						</span>
+						Inicio
+					</li>
+				</a>
+				<a href="#welcome" class="myself__menu__link">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-lightbulb fa-stack-1x fa-inverse"></i>
+						</span>
+						Acerca de Mi
+					</li>
+				</a>
+				<a href="#portfolio" class="myself__menu__link">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
+						</span>
+						Mi Portafolio
+					</li>
+				</a>
+				<a href="#contact" class="myself__menu__link">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-address-book fa-stack-1x fa-inverse"></i>
+						</span>
+						Contáctame
+					</li>
+				</a>
+			</ul>
+		</div>
+
+		<!-- Esta es la sección principal, donde se muestra la información básica -->
+		<section class="container__myself">
+			<span class="myself__menu__action"><i class="fas fa-hamburger"></i></span>
+
+			<article class="myself">
+				<div class="myself__profile">
+					<div class="myself__container__avatar">
+						<div class="myself__avatar"></div>
+					</div>
+					<h1 class="myself__fullname">Adrian Josue Calderón Segura</h1>
+					<p class="myself__description">Diplomado en Tecnologias de la Información</p>
+					<p class="myself__description">Desarrollador Web</p>
+					<p class="myself__description">Graduado del Colegio Universitario de Cartago</p>
+				</div>
+				<div class="myself__footer">
+					<div class="myself__footer__by">
+						<p>Cartago, Costa Rica</p>
+						<p>© 2022</p>
+					</div>
+					<div class="myself__footer__social">
+						<a class="myself__footer__link" href="https://www.linkedin.com/in/adrian-calderón-segura-898386228" target="_blank">
+							<i class="fab fa-linkedin"></i>
+						</a>
+					
+						<a class="myself__footer__link" href="https://github.com/adriancs19" target="_blank">
+							<i class="fab fa-github-square"></i>
+						</a>
+			
+					</div>
+				</div>
+			</article>
+		</section>
+
+		<!-- Éste contenedor muestra los artículos que actualmente están en la página -->
+		<section class="container__articles">
+			<nav class="menu">
+				<ul class="menu-list">
+					<a href="#welcome" class="menu-list__link menu-list__link--active">
+						<li class="menu-list__item">Acerca de Mi</li>
+					</a>
+					<a href="#portfolio" class="menu-list__link">
+						<li class="menu-list__item">Mi Portafolio</li>
+					</a>
+					<a href="#contact" class="menu-list__link">
+						<li class="menu-list__item">Contáctame</li>
+					</a>
+				</ul>
+			</nav>
+
+		<article class="welcome article--show" id="welcome">
+				<h2 class="welcome__title">¡Bienvenido!</h2>
+				<p class="welcome__description">Mi nombre es <strong>Adrián</strong>, soy desarrollador y vivo en la ciudad de Cartago Costa Rica. Mi lenguaje de programación favorito es <strong>C# .net </strong>, con él he aprendido muchas cosas y con él desarrollo actualmente proyectos de interes personal para mantenerme al día y no perder práctica. Mi objetivo es usarlo como herramienta para crear soluciones tecnológicas a la medida de cualquier necesidad. <br /> Estoy convencido de que el trabajo en equipo es la mejor forma de avanzar en cualquier trabajo o proyecto. <br /></p>
+
+				<h2 class="welcome__title">Stack de Desarrollo</h2>
+				<p class="welcome__description">Inicie mi carrera en el año 2018 en el Colegio Universitario de Cartago. A lo largo 
+				de la carrera aprendí sobre distisntos lenguajes de programación. Aunque aun no cuento con Experiencia Laboral, en el poco tiempo que me he desempeñado como desarrollador he trabajado con diferentes tecnologías. A continuación quiero mostrarte mi stack de desarrollo actual y las herramientas con las que he trabajado.</p>
+
+				<div class="welcome__container-stack">
+					<!-- Frontend -->
+					<div class="welcome__stack">
+						<h4 class="welcome__stack__title">Frontend</h4>
+						<div class="welcome__stack__tools">
+							<div class="welcome__stack__tool">
+								<i class="fab fa-html5" style="color:#f16529;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-css3-alt" style="color:#0170ba;"></i>
+							</div>
+			
+							<div class="welcome__stack__tool">
+								<i class="fab fa-bootstrap" style="color:#563d7c;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-sass" style="color:#c6538c;"></i>
+							</div>
+
+						</div>
+					</div>
+					<!-- Backend -->
+					<div class="welcome__stack">
+						<h4 class="welcome__stack__title">Lenguajes de Programación</h4>
+						<div class="welcome__stack__tools">
+
+							<div class="welcome__stack__tool">
+								<img img src="C:\Users\adria\Desktop\PRUEBAS PORTAFOLIO\Portafolio-master\public\IMGStack\C.NET_-1024x384-1.png" alt="imagen" />
+							</div>
+
+							<div class="welcome__stack__tool">
+								<img img src="C:\Users\adria\Desktop\PRUEBAS PORTAFOLIO\Portafolio-master\public\IMGStack\javalogo.jpg" alt="imagen" />
+							</div>
+
+							<div class="welcome__stack__tool">
+								<img img src="C:\Users\adria\Desktop\PRUEBAS PORTAFOLIO\Portafolio-master\public\IMGStack\m,k,.jpg" alt="imagen" />
+							</div>
+						</div>
+					</div>
+					
+					<!-- Databases -->
+					<div class="welcome__stack">
+						<h4 class="welcome__stack__title">Bases de datos</h4>
+						<div class="welcome__stack__tools">
+							<div class="welcome__stack__tool">
+
+								<img img src="C:\Users\adria\Desktop\PRUEBAS PORTAFOLIO\Portafolio-master\public\IMGStack\sql-server.png" alt="imagen" />
+							</div>
+							<div class="welcome__stack__tool">
+								<img src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg" alt="mysql" />
+							</div>
+	
+							
+						</div>
+					</div>
+				</div>
+				<br />
+								<h2 class="welcome__title">MIS HABILIDADES Y COMPETENCIAS</h2>
+				<p class="welcome__description"><strong>Conocimientos Técnicos: </strong><br />
+					• Manejo de lenguajes de programación orientado a objetos (java y .net).<br />
+					• Conocimiento en bases de datos relacionales como SQL server y MySQL.<br />
+					• Diseño de páginas web usando hojas de estilo CSS, Bootstrap y HTML5.<br />
+					• Manejo del patrón de diseño de MVC de asp.net.<br />
+					• Manejo del patrón de diseño por medio de capas de asp.net.<br />
+					• Creación de documentación para proyectos como: levantamiento de requerimientos, diagramas de flujo, diseño del sistema en Mockups y manuales de usuario.<br />
+					• Uso de la herramienta Trello.com para el seguimiento grupal en la administración de proyectos de software.<br />
+					• Uso de la herramienta Git Hub para el seguimiento grupal sobre programación respectiva al proyecto de trabajo.<br /><br />
+					<strong>Pensamiento crítico y analítico:</strong> habilidad para poder analizar y situación o problema que se está dando, para así partir de ahí, para proponer recomendaciones y ayudar en la búsqueda de la solución para el desarrollo de un determinado proceso.<br />
+					<strong>Compromiso y empatía:</strong> dispuesto a recibir supervisión y prestar atención a instrucciones dadas, para poder lograr un apto desempeño en las labores, que beneficiaran a la organización.<br />
+					<strong>Adaptabilidad:</strong> cuento con la capacidad para adaptarme y trabajar en distintas situaciones y con personas diversas de acuerdo al entorno laboral.<br /> 
+					<strong>Trabajo en equipo:</strong> totalmente de acuerdo en formar equipos de trabajo con mis compañeros en la resolución de tareas asignadas para cumplir un objetivo en común.<br />
+					<strong>Facilidad y capacidad de aprendizaje:</strong> gusto por superación personal y grupal, además de cautivado por aprender cosas nuevas cada día para poder ponerlas en práctica y realizar un trabajo óptimo.<br />
+					<strong>Gestión de tiempo:</strong> analítico en cuanto al tiempo para poder realizar las tareas asignadas, con el fin de aumentar el rendimiento y la eficiencia de los trabajos asignados.<br />
+				<br />
+			</article>
+
+			<article class="portfolio" id="portfolio">
+				<h2 class="welcome__title">Mi Portafolio</h2>
+				<p class="welcome__description">En esta sección encontrarás informacion relevante a mis proyectos más importantes en los que he trabajado.</p>
+				<blockquote class="portfolio__blockquote">Puedes encontrar más información sobre el código de mis proyectos en los repositorios de mi perfil de <strong>Github</strong>.</blockquote>
+					<br />
+					<br />
+
+				
+					<!-- ESCANNER QR -->
+					<article class="portfolio__works__item" id="yipgo">
+						<div class="portfolio__works__item__header">
+							<img img src="C:\Users\adria\Desktop\PRUEBAS PORTAFOLIO\Portafolio-master\public\IMGStack\panlo2-playstore.png" class="portfolio__works__item__header__logo">
+							<h3 class="portfolio__works__item__header__title">
+								Escaner Qr PANI - Proyeto de Graduación
+							</h3>
+						</div>
+						<p class="portfolio__works__item__resume">Desarrollo de un <strong>aplicativo móvil</strong> con <strong>Android Studio</strong> para la <strong>lectura y escritura de codigos QR</strong> con la infomación de los activos de la institución. La aplicacion al iniciar pide el nombre de tres funcionarios ya registrados en la app (si no está registrado deben de ingresarlo), el cual son los responasables del la toma del inventario. Luego se preocede con la toma de informacion del inventario mediante el escaner por medio de un <strong>infrarrojo</strong> a la etiqueta QR que tiene cada uno de los activos. Terminado el proceso de escaneo se guarda la informacion en un <strong>Archivo Excel</strong>, donde este se envia via <strong>Email</strong> o <strong>Correo Electrónico</strong>.
+						
+						<div class="portfolio__works__tools">
+							<div class="portfolio__works__tools__role">Desarrollador Movíl</div>
+
+						</div>
+					</article>
+					<br />
+
+					<!-- SISTEMA DE MATRICULA -->
+					<article class="portfolio__works__item" id="yipgo">
+						<div class="portfolio__works__item__header">
+							<img img src="C:\Users\adria\Desktop\PRUEBAS PORTAFOLIO\Portafolio-master\public\IMGStack\matricula.png" class="portfolio__works__item__header__logo">
+							<h3 class="portfolio__works__item__header__title">
+								Proyeto académico - Administración de Sitios Web
+							</h3>
+						</div>
+						<p class="portfolio__works__item__resume">Desarrollo de un proyecto web utilizando <strong>C#</strong> y <strong>MySql</strong>. La pagina web consiste en administrar un <strong>sistema matrícula</strong> de una Universidad. Donde se debe administrar(crear, editar y eliminar) aulas, edificios, horarios. Se debe cargar todos los cursos a través de un archivo excel y se guardan en la base de datos, para luego asignar de <strong>manera automática</strong>  los cursos a una aula con su respectivo horario, donde los diferentes cursos no deben de chocar con un determinado horario. Una vez terminado el proceso automatico se podra visualizar el status de las aulas.
+						
+						<div class="portfolio__works__tools">
+							<div class="portfolio__works__tools__role">Desarrollador Web</div>
+
+						</div>
+					</article>
+					<br />
+
+					<!-- SERVICIOS PUBLICOS -->
+					<article class="portfolio__works__item" id="yipgo">
+						<div class="portfolio__works__item__header">
+							<img img src="C:\Users\adria\Desktop\PRUEBAS PORTAFOLIO\Portafolio-master\public\IMGStack\ps.png" class="portfolio__works__item__header__logo">
+							<h3 class="portfolio__works__item__header__title">
+								Proyeto académico - Programacion 5
+							</h3>
+						</div>
+						<p class="portfolio__works__item__resume"> Desarrollo de una página web utilizando <strong>Java servet</strong>,
+						<strong>C# asp. net</strong> y <strong>MySql</strong>. La página consiste en un <strong>simulador de pago de servicios públicos</strong>. La aplicación principal se realizó en C#asp.net y está se conectaba a los servets de Java para realizar las operaciones para simular el pago en la base de datos. La pagina web estaba conectada al servicio del <strong>Banco Central</strong> para ver tipo de cambio del dollar del dia a día.
+						<div class="portfolio__works__tools">
+							<div class="portfolio__works__tools__role">Desarrollador Web</div>
+
+						</div>
+
+
+				</article>
+				
+				<br />
+				<br />
+				<br />
+			</article>
+
+			<article class="contact" id="contact">
+				<section class="portfolio__works">
+				<h2 class="contact__title">Información de Contacto</h2>
+				<p class="contact__description"><strong>Nombre:</strong> Adrián Josue Calderón Segura<br /><br />
+					<strong>Teléfono:</strong> (506) 8449-5028<br /><br />
+					<strong>Correo Electrónico:</strong> <a class="welcome__community" href="https://mail.google.com/mail/?view=cm&fs=1&to=jfbaquerocelis@gmail.com" target="_blank">aj199cs@gmail.com</a> o <a class="welcome__community" href="https://mail.google.com/mail/?view=cm&fs=1&to=jfbaquerocelis@gmail.com" target="_blank">adrian19calderon@gmail.com</a><br /><br />
+					<strong>Ciudad: </strong> Cartago, Costa Rica.<br />
+
+				<p class="contact__description"> <br>También puedes vistar mi perfil de Linkedin y GitHub:     </p>
+
+				<div class="contact__social">
+				
+					<a class="contact__social__link" href="https://github.com/monteriajs" target="_blank">
+						<i class="fab fa-github-square" style="color: #2d2d2d;"></i>
+					</a>
+
+					<a class="contact__social__link" href="https://www.linkedin.com/in/adrian-calderón-segura-898386228" target="_blank">
+						<i class="fab fa-linkedin"></i>
+					</a>
+
+				</div>
+				</section>
+			</article>
+		</section>
+	</div>
+
+	<script src="https://kit.fontawesome.com/74a0a4aba0.js"></script>
+	<script src="public/js/main.js"></script>
+</body>
+</html>
